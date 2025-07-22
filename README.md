@@ -13,7 +13,7 @@ and the Flutter guide for
 
 # LiquidGlassContainer
 `LiquidGlassContainer` is a Flutter widget that simulates a fluid, refractive glass container using custom shaders and real-time background capture. It creates a visually rich and dynamic lens-like distortion effect, perfect for Apple-26 style UI designs.
-![效果预览](assets/logo.png)
+![效果预览](https://raw.githubusercontent.com/Canplayer/Flutter_LiquidGlass/main/assets/logo.png)
 ## ✨ Features
 - 💧 Realistic lens distortion using `FragmentShader` (Yes, supports Web)
 - 🌈 Supports refraction, chromatic dispersion, and distortion effects
@@ -22,7 +22,7 @@ and the Flutter guide for
 - 📦 Built-in integration with [`smooth_corner`](https://pub.dev/packages/smooth_corner)
 - 🎨 Smooth corner rendering with adjustable border radius and smoothness
 - 🎉 Almost supports all platforms that Flutter supports
-
+ 
 ## How To Use
 ### 1.Create a Background Key
 Wrap your background with a RepaintBoundary and assign a GlobalKey:

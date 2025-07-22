@@ -1,7 +1,8 @@
 name: liquidglass_container
 description: "一个李逵格拉斯的粗糙实现"
 version: 0.0.1
-homepage:
+homepage: https://pub.dev/packages/liquidglass_container
+repository: https://github.com/Canplayer/Flutter_LiquidGlass
 
 environment:
   sdk: ^3.5.4
