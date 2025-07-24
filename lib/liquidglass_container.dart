@@ -108,9 +108,10 @@ class _LiquidGlassContainerState extends State<LiquidGlassContainer> {
   }
 
   Future<void> _loadShader() async {
-    final program =
-        await ui.FragmentProgram.fromAsset('assets/shaders/aero_lens.frag');
-    setState(() => _shader = program.fragmentShader());
+      final program = await ui.FragmentProgram.fromAsset(
+        'packages/liquidglass_container/assets/shaders/aero_lens.frag',
+      );
+      setState(() => _shader = program.fragmentShader());
   }
 
   void _scheduleBackgroundCapture() {
@@ -351,10 +352,10 @@ class LensShaderPainter extends CustomPainter {
     shader.setFloat(6, chromaticDispersion); // 色散系数
     shader.setFloat(7, distortionStrength); // 扭曲强度
     shader.setFloat(8, distortionSlope); // 扭曲坡度
-    shader.setFloat(9, color.red.toDouble()); // R
-    shader.setFloat(10, color.green.toDouble()); // G
-    shader.setFloat(11, color.blue.toDouble()); // B
-    shader.setFloat(12, color.alpha.toDouble());
+    shader.setFloat(9, color.red.toDouble()/255); // R
+    shader.setFloat(10, color.green.toDouble()/255); // G
+    shader.setFloat(11, color.blue.toDouble()/255); // B
+    shader.setFloat(12, color.alpha.toDouble()/255);
 
     shader.setImageSampler(0, backgroundImage);
 
