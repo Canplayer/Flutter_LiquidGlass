@@ -3,10 +3,13 @@
 * TODO: Describe initial release.
 ## 0.0.2
 
-* 更新了readme和pubspec的一些描述
+* Updated some descriptions in the readme and pubspec.
 ## 0.0.3
 
-* 更新了简介，我不知道原来pubspec里面的简介是直接写在介绍页上的🤷
+* Updated the introduction. I didn't know that the description in pubspec is directly shown on the introduction page.
 ## 1.0.0
 
-* Its WORK！他终于可以正常工作了！（其实前面0.0.x版本的时候根本没有测试，自己用了根本跑不起来）
+* It WORKS! It finally works properly! (Actually, the previous 0.0.x versions were never tested, and couldn't run at all.)
+## 1.0.1
+
+* Added example and translated the changelog into English.

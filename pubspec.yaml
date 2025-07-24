@@ -1,6 +1,6 @@
 name: liquidglass_container
 description: "A beautiful Apple-26 style container with glass distortion (not just Gaussian blur) and light effects. It supports smooth corners and shadows. Supports WEB and ANDROID."
-version: 1.0.0
+version: 1.0.1
 homepage: https://pub.dev/packages/liquidglass_container
 repository: https://github.com/Canplayer/Flutter_LiquidGlass
 
